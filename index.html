@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gather.js</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="entire-container">
+            <div class="main-logo-container">
+                <h1 id="main-logo">Gather.js</h1>
+                <h3 id="main-description">Edit JS code together.</h3>
+            </div>
+            <div class="room-search-container">
+                <input type="text" id="room-search-area" placeholder="Enter room code">
+                <button id="room-search-btn">Join</button>
+            </div>
+            <div class="create-room-container">
+                <button id="create-room-btn">Create Room</button>
+            </div>
+        </div>
+        <div class="codespace-container">
+            <div class="top-container">
+                <h1 id="top-logo">Gather.js</h1>
+                <hr>
+                <div class="top-info-container">
+                    <h2 id="room-name">Room Name</h2>
+                    <p id="room-code">Room Code: 0000</p>
+                    <button id="delete-server">Delete Server</button>
+                </div>
+                <div class="editor-runner-container">
+                    <div id="editor"></div>
+                    <div id="runner"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"></script>
+        <script src="server.js" type="module"></script>
+    </body>
+</html>
