@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.codespace-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: white;
+}
+
+#top-logo{
+    margin-left: 10px;
+}
+
+.top-info-container{
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.editor-runner-container{
+    width: 150vh;
+    height: 50vh;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#editor{
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#runner{
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: #1e1e1e;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+#room-name{
+    margin: 0;
+}
+
+#room-code{
+    margin-top: 5px;
+}
+
+.entire-container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+
+.main-logo-container {
+    text-align: center;
+}
+
+#main-logo {
+    font-size: 64px;
+    margin: 0;
+}
+
+#main-description {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.room-search-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#room-search-area {
+    width: 260px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    font-size: 20px;
+}
+
+#room-search-area:focus {
+    outline: none;
+}
+
+#room-search-btn {
+    height: 40px;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.room-search-container {
+    display: flex;
+    align-items: stretch;
+    gap: 0px;
+    margin-bottom: 6px;
+}
